@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZK-SNARK Proof Generation & Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ZK-SNARK Proof Generation & Verification</h1>
+        
+        <div class="input-section">
+            <label for="inputValue">Input Value:</label>
+            <input type="text" id="inputValue" placeholder="Enter value for proof" required>
+        </div>
+
+        <button id="generateProofBtn">Generate Proof</button>
+        
+        <h2>Verification</h2>
+        <div class="output-section">
+            <label for="proofResult">Proof Result:</label>
+            <input type="text" id="proofResult" disabled>
+        </div>
+        
+        <button id="verifyProofBtn">Verify Proof</button>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

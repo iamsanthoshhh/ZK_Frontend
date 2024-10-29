@@ -1,0 +1,14 @@
+{
+  "name": "zk-wasm",
+  "version": "0.1.0",
+  "files": [
+    "zk_wasm_bg.wasm",
+    "zk_wasm.js",
+    "zk_wasm.d.ts"
+  ],
+  "module": "zk_wasm.js",
+  "types": "zk_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
